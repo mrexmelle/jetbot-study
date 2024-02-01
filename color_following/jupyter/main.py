@@ -1,6 +1,8 @@
 #!/bin/bash
 
 import traitlets
+import ipywidgets
+from IPython.display import display
 from jetbot import Camera, bgr8_to_jpeg, Robot
 from SCSCtrl import TTLServo
 import cv2, time
